@@ -2,11 +2,11 @@
     <div>
         <fieldset style="width:200px">
             <legend>
-                <h2>Poor {{animal}}</h2>
+                <h2>{{ $t("legend") }} {{animal}}</h2>
             </legend>
-            <p>Save {{animal}}!</p>
-            <button>Save</button>
-            <button>Kill</button>
+            <p>{{ $t("petition") }} {{animal}}!</p>
+            <button>{{ $t("buttonSave") }} </button>
+            <button>{{ $t("buttonKill") }} </button>
         </fieldset>
     </div>
 </template>
